@@ -6,6 +6,34 @@ A powerful Unity editor tool for creating smooth camera transitions and cinemati
 ![HDRP](https://img.shields.io/badge/Render%20Pipeline-HDRP-orange.svg)
 ![License](https://img.shields.io/badge/License-MIT-green.svg)
 
+## 📦 **Download & Install**
+
+### 🚀 **Quick Download (Recommended)**
+**[⬇️ Download Latest Unity Package](https://github.com/yourusername/CameraTool/releases/latest)**
+
+**Installation:**
+1. Download the `.unitypackage` file from the link above
+2. Double-click the file or use `Assets > Import Package > Custom Package`
+3. Select all items and click `Import`
+4. Open `Window > Camera Pose Editor` to get started!
+
+### 🔧 **Alternative: Unity Package Manager**
+```
+https://github.com/yourusername/CameraTool.git
+```
+1. Open Unity Package Manager: `Window > Package Manager`
+2. Click the `+` button → `Add package from git URL`
+3. Paste the URL above and click `Add`
+
+### ⚡ **Get Started in 2 Minutes**
+1. **Open Camera Pose Editor**: `Window > Camera Pose Editor`
+2. **Create a pose collection**: Right-click in Project → `Create > Camera > Camera Pose Collection`
+3. **Capture your first pose**: Position camera in Scene View → Click "Capture Current View"
+4. **Add the controller**: Select your camera → Add `CameraPoseController` component
+5. **Test transitions**: Enter Play Mode → Use the UI buttons or keyboard shortcuts
+
+---
+
 ## ✨ What is CameraTool?
 
 CameraTool is a comprehensive Unity system that allows you to:
@@ -14,24 +42,6 @@ CameraTool is a comprehensive Unity system that allows you to:
 - **Organize poses** into collections for different scenes or menus
 - **Preview camera movements** with visual gizmos in the editor
 - **Integrate seamlessly** with UI systems and game events
-
-## 🚀 Quick Start
-
-### Prerequisites
-- Unity 6000.0.45f1 or later
-- HDRP (High Definition Render Pipeline) - already configured in this project
-
-### Installation
-1. **Clone or download** this repository
-2. **Open the project** in Unity
-3. **Open the sample scene**: `Assets/OutdoorsScene.unity`
-
-### First Steps (5 minutes)
-1. **Open the Camera Pose Editor**: `Window > Camera Pose Editor`
-2. **Create a pose collection**: Right-click in Project → `Create > Camera > Camera Pose Collection`
-3. **Capture your first pose**: Position camera in Scene View → Click "Capture Current View"
-4. **Add the controller**: Select your camera → Add `CameraPoseController` component
-5. **Test transitions**: Enter Play Mode → Use the UI buttons or keyboard shortcuts
 
 ## 🎯 Key Features
 
@@ -98,6 +108,7 @@ The project includes a complete sample scene (`OutdoorsScene.unity`) with:
 
 ## 📁 Project Structure
 
+### **Development Project Structure**
 ```
 Assets/
 ├── CameraTool/                    # Main tool folder
@@ -106,6 +117,7 @@ Assets/
 │   │   ├── CameraPoseCollection.cs # Collection management
 │   │   ├── CameraPoseController.cs # Runtime controller
 │   │   ├── CameraPoseUIExample.cs # UI integration example
+│   │   ├── CameraPoseMenuExample.cs # Menu system example
 │   │   └── CameraPosePreviewTester.cs # Keyboard testing
 │   ├── EditorScripts/             # Editor tools
 │   │   ├── CameraPoseEditorWindow.cs # Main editor window
@@ -113,8 +125,30 @@ Assets/
 │   ├── README_CameraPoseSystem.md # Detailed documentation
 │   └── UI_Setup_Guide.md         # UI integration guide
 ├── OutdoorsScene.unity           # Sample scene
+├── CameraCollection.asset        # Sample pose collection
 ├── Pose_1.asset to Pose_5.asset  # Sample pose assets
 └── kenney_*                      # Sample 3D assets
+```
+
+### **Unity Package Structure**
+```
+Packages/CameraTool/              # Unity Package Manager structure
+├── package.json                  # Package manifest
+├── Runtime/                      # Runtime scripts
+│   ├── CameraPose.cs
+│   ├── CameraPoseCollection.cs
+│   ├── CameraPoseController.cs
+│   ├── CameraPoseUIExample.cs
+│   ├── CameraPoseMenuExample.cs
+│   └── CameraPosePreviewTester.cs
+├── Editor/                       # Editor-only scripts
+│   ├── CameraPoseEditorWindow.cs
+│   └── CameraPoseGizmoDrawer.cs
+└── Samples~/                     # Importable samples
+    └── CameraPoseSystem/
+        ├── OutdoorsScene.unity
+        ├── CameraCollection.asset
+        └── Pose_1.asset to Pose_5.asset
 ```
 
 ## 🔧 Advanced Features
@@ -174,3 +208,5 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 - Designed for smooth camera workflows in Unity
 
 ---
+
+**Ready to create amazing camera movements?** Download the package and start with the sample scene!

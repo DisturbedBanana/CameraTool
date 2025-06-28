@@ -1,0 +1,30 @@
+{
+  "name": "com.cameratool.unity",
+  "version": "1.0.0",
+  "displayName": "Camera Tool",
+  "description": "A powerful Unity editor tool for creating smooth camera transitions and cinematic movements. Perfect for menu systems, cutscenes, and dynamic camera work.",
+  "unity": "2022.3",
+  "dependencies": {
+    "com.unity.ugui": "1.0.0"
+  },
+  "keywords": [
+    "camera",
+    "transition",
+    "cinematic",
+    "menu",
+    "editor",
+    "tool"
+  ],
+  "author": {
+    "name": "CameraTool Developer",
+    "email": "your-email@example.com",
+    "url": "https://github.com/yourusername/CameraTool"
+  },
+  "samples": [
+    {
+      "displayName": "Camera Pose System",
+      "description": "Complete example scene with camera poses and UI integration",
+      "path": "Samples~/CameraPoseSystem"
+    }
+  ]
+} 
