@@ -9,7 +9,7 @@ A powerful Unity editor tool for creating smooth camera transitions and cinemati
 ## 📦 **Download & Install**
 
 ### 🚀 **Quick Download (Recommended)**
-**[⬇️ Download Latest Unity Package](https://github.com/yourusername/CameraTool/releases/latest)**
+**[⬇️ Download Latest Unity Package](https://github.com/DisturbedBanana/CameraTool/releases/latest)**
 
 **Installation:**
 1. Download the `.unitypackage` file from the link above
@@ -19,7 +19,7 @@ A powerful Unity editor tool for creating smooth camera transitions and cinemati
 
 ### 🔧 **Alternative: Unity Package Manager**
 ```
-https://github.com/yourusername/CameraTool.git
+https://github.com/DisturbedBanana/CameraTool.git
 ```
 1. Open Unity Package Manager: `Window > Package Manager`
 2. Click the `+` button → `Add package from git URL`
