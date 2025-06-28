@@ -174,5 +174,3 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 - Designed for smooth camera workflows in Unity
 
 ---
-
-**Ready to create amazing camera movements?** Open the project in Unity and start with the sample scene!
